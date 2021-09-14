@@ -12,7 +12,7 @@ environment - (Required) The Environment tag to apply to new resources.
   
 ```
 module "example-vnet" {  
-	source = "$/Common Cloud/Terraform/Azure/vnet-module"  
+	source = "ryanjpayne/tf-azure-vnet-module"  
   
 	networkName       = "example-vnet"  
 	resourceGroupName = "example-rg"  
