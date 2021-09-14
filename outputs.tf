@@ -1,0 +1,18 @@
+# Establish output values
+
+output "vnet_id" {
+  description = "The ID of the VNET"
+  value       = azurerm_virtual_network.vnet.id
+}
+output "vnet_name" {
+  description = "The name of the VNET"
+  value       = azurerm_virtual_network.vnet.name
+}
+output "vnet_location" {
+  description = "The location of the VNET"
+  value       = azurerm_virtual_network.vnet.location
+}
+output "vnet_cidr" {
+  description = "The CIDR of the VNET"
+  value       = azurerm_virtual_network.vnet.address_space
+}
