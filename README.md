@@ -10,6 +10,7 @@ environment - (Required) The Environment tag to apply to new resources.
 
 ## Example Usage  
   
+```
 module "example-vnet" {  
 	source = "$/Common Cloud/Terraform/Azure/vnet-module"  
   
@@ -19,6 +20,7 @@ module "example-vnet" {
 	location          = "USGov Virginia"  
 	environment       = "sandbox"  
 }  
+```
   
 ## Outputs  
 vnet_id - The virtual NetworkConfiguration ID.  
